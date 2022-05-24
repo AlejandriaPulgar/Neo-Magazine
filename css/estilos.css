@@ -1,12 +1,11 @@
-
 /*Bootstrap*/
 
-body{
-    background-color :#dddad5 !important;
+body {
+    background-color: #dddad5 !important;
 }
 
 .buscar input {
-    width: 240px ;
+    width: 240px;
     height: 40px;
     padding: 0 20px;
     font-size: 18px;
@@ -14,25 +13,24 @@ body{
     outline: none;
     border: 1px solid silver;
     border-radius: 30px;
-    
+
 
 }
 
 /*Estilo contebedor*/
 
-.container-flex{
+.container-flex {
     display: flex;
     justify-content: center;
     margin: 0 1.5% 0 1.5%;
-    
+
 
 }
 
-.estatico{ 
+.estatico {
     display: block !important;
 
 }
-
 
 
 /*footer*/
@@ -78,7 +76,7 @@ footer {
     justify-content: center;
 }
 
-.social-icons i{
+.social-icons i {
     font-size: 2rem;
     color: #252525;
     padding: .8rem 2rem;
@@ -119,22 +117,22 @@ footer {
 
 @media screen and (min-width: 900px) {
 
-    
+
     section {
         padding: 7.9rem;
     }
 
-    
-    .menu-toggle{
+
+    .menu-toggle {
         display: none;
     }
 
-    
+
     .nav {
         justify-content: space-between;
     }
 
-    
+
     .nav-list {
         position: initial;
         width: initial;
@@ -146,88 +144,88 @@ footer {
         transform: initial;
         transition: initial;
     }
-    
+
     .nav-item {
         margin: 0 2.4rem;
     }
 
     .nav-item :last-child {
-    margin-right: 0;
-}
+        margin-right: 0;
+    }
 
 
-.nav-link {
-    font-size: 1.3rem;
-}
+    .nav-link {
+        font-size: 1.3rem;
+    }
 
 
-.active {
-position: relative;
-}
+    .active {
+        position: relative;
+    }
 
 
-.active::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    left: 0;
-    bottom: -3px;
+    .active::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+        bottom: -3px;
 
 
-}
-.h2-sub {
-    font-size: 3rem;
-}
+    }
+
+    .h2-sub {
+        font-size: 3rem;
+    }
 
 
-.fil {
-    font-size: 3rem;
-}
+    .fil {
+        font-size: 3rem;
+    }
 
 
-.head {
-    font-size: 4.7rem;
-    letter-spacing: .8rem;
-}
+    .head {
+        font-size: 4.7rem;
+        letter-spacing: .8rem;
+    }
 
 
-.res-info {
-    display: flex;
-    align-items: center;
-}
+    .res-info {
+        display: flex;
+        align-items: center;
+    }
 
 
-.res-info > div {
-    flex: 1;
-}
+    .res-info > div {
+        flex: 1;
+    }
 
 
-.pad-rig {
-    max-width: 77.5rem;
-    margin-right: auto;
-}
+    .pad-rig {
+        max-width: 77.5rem;
+        margin-right: auto;
+    }
 
 
-.footer-content-about {
-    max-width: 51.3rem;
-    margin: 0 auto 5.4rem;
-}
+    .footer-content-about {
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
 
 
-.footer-div {
-    display: flex;
-    justify-content: space-between;
-}
+    .footer-div {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.social-media,
+    .social-media,
+    .news-form {
+        width: 100%;
+        max-width: 27.3rem;
 
-.news-form {
-    width: 100%;
-    max-width: 27.3rem;
-
-}
+    }
 
 
 }
