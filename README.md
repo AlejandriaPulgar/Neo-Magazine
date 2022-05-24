@@ -15,3 +15,4 @@
 * Colocar la categoria en cada noticia 
 * Hacer los contenedores de las noticias del mismo tamaño y con las mimas distancias 
 * Acomodar el footer
+* Cambiar la tipografia 
