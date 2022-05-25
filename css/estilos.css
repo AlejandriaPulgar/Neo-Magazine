@@ -1,5 +1,15 @@
 /*Bootstrap*/
 
+
+.nav-link {
+    color: #000 !important; 
+}
+@media screen and (min-width:992px){
+    .nav-item {
+    line-height:50px;
+    }
+  }
+
 body {
     background-color: #dddad5 !important;
 }
